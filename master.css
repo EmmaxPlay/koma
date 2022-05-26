@@ -1,0 +1,74 @@
+:root {
+  --fondo: #fff68a;
+  --primario: #f16711;
+  --negro: #0000;
+  --morado: #cb6ce6;
+}
+@import url("https://fonts.googleapis.com/css2?family=Pompiere&family=Quicksand&display=swap");
+@font-face {
+  font-family: gagalin;
+  src: url(fonts/gagalin.otf);
+}
+body {
+  background-color: var(--fondo);
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+h1 {
+  font-family: gagalin;
+  font-size: 6rem;
+  color: var(--primario);
+}
+h2 {
+}
+.titulo {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-family: "Pompiere", cursive;
+  color: var(--fondo);
+  font-size: 2.6rem;
+
+  background-color: var(--primario);
+  padding: 2rem;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+.price {
+  font-size: 4rem;
+  font-family: "Quicksand", sans-serif;
+  color: var(--morado);
+}
+.content,
+.price {
+  font-family: "Quicksand", sans-serif;
+}
+.info{
+  padding: 0 2rem;
+}
+.item-title{
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.ingredientes{
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+}
